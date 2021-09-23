@@ -18,7 +18,7 @@ Usage of ./xorm_test_darwin_amd64:
   -sql string
     	Input Your sql (default "select version()")
   -type string
-    	Input Your databases type (default "mysql,sqlserver,oracle")
+    	Input Your databases type (default "mysql,mssql,oracle")
   -user string
     	Input Your user (default "root")
 ```

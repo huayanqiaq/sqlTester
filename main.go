@@ -165,7 +165,7 @@ func oracle(username string,password string,port int,host string,protocol string
 
 }
 
-var db_protocol = flag.String("type", "mysql,sqlserver,oracle", "Input Your databases type")
+var db_protocol = flag.String("type", "mysql,mssql,oracle", "Input Your databases type")
 var db_host = flag.String("host", "127.0.0.1", "Input Your host")
 var db_port = flag.String("port", "3306", "Input Your port")
 var db_user = flag.String("user", "root", "Input Your user")
